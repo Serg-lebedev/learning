@@ -7,3 +7,4 @@ urlpatterns = [
     path('bboard/', include("bboard.urls")),
     path('accounts/login/', LoginView.as_view(), name='login')
 ]
+# test
